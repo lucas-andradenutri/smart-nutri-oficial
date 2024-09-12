@@ -1,0 +1,130 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* cor do degrade ( to top, rgb(1, 6, 9),rgb(29,38, 45));
+cor das fontes #B9A894; 
+font-family: "Montserrat", sans-serif; titulos 
+font-family: "Open Sans", sans-serif; textos 
+ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body, html {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw; 
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(1,6,9),  rgb(29,38,45));
+    padding: 10px;
+    
+}
+
+header > h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: #B9A894;
+
+}
+
+header > p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1,5em;
+    text-align: center;
+    color: #B9A894;
+    padding-bottom: 10px;
+
+}
+
+menu{
+    background-color: rgb(1,6,9);
+    padding: 5px;
+}
+
+menu > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+menu > a:hover{
+    background-color: #b9a8949a;
+    border-radius: 5px;
+}
+
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../imagens/img1nv.jpg
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+div.titulosec{
+    color: white;
+    background-color: rgba(1, 6, 9, 0.493);
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+
+
+    padding-top: 15px;
+    width: 90vw;
+    height: 200px;  
+    border-radius: 10px;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+button{
+    
+
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: rgb(29,38,45) ;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+    border: none
+
+}
+
+button > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+footer{
+    background-color: rgb(1,6,9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
